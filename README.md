@@ -1,2 +1,3 @@
 # ww5500-module
 W5500 Ethernet Network Module with SPI Interface
+This module is an Ethernet board based on the W5500 chip, a hardwired TCP/IP embedded controller that enables stable internet connectivity for embedded systems via SPI. I used this module to add Ethernet capability to my project with minimal overhead on the main MCU. It supports TCP, UDP, IPv4, ICMP, ARP, IGMP, and PPPoE protocols with a 32KB internal buffer for Tx/Rx. The module provides 8 independent hardware sockets, Wake on LAN, and power-down mode for low-power applications. It operates at 3.3V or 5V with a max SPI speed of 80 MHz and typical current of 128mA. Ideal for IoT, industrial automation, web servers, and networked monitoring systems.
